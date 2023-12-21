@@ -1,0 +1,56 @@
+* {
+    font-family: Roboto;
+}
+
+#heroButton {
+    border-radius: 32px;
+    border: 1px solid #4262FF;
+    background: #4262FF;
+    color: #FFF;
+}
+
+.link {
+    color: #4262FF;
+    text-decoration: underline;
+}
+
+header a {
+    color: #050038;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+h1,
+h2 {
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 58px;
+    color: #050038;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.heroText {
+    color: #050038;
+}
+
+.sectionText {
+    color: rgba(5, 0, 56, 0.6);
+
+}
+
+.heroForm+p {
+    color: #050038;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+}
