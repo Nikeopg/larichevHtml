@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&family=Fira+Sans&display=swap"
+            rel="stylesheet"
+        />
+        <title>Форма связи</title>
+    </head>
+    <body>
+        <main>
+            <h1>Свяжитесь со мной</h1>
+            <form action="#">
+                <div>
+                    <label for="email">E-mail*</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Введите E-mail"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="telegramm">Telegram</label>
+                    <input
+                        type="telegramm"
+                        id="telegramm"
+                        name="telegramm"
+                        placeholder="Введите Telegram"
+                    />
+                </div>
+                <div>
+                    <label for="topic">Тема*</label>
+                    <select name="topic" id="topic" required>
+                        <option value="courses">Приобретение курсов</option>
+                        <option value="feedback">Обратная связь</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="comment">Комментарий</label>
+                    <textarea
+                        name="comment"
+                        id="comment"
+                        cols="30"
+                        rows="10"
+                    ></textarea>
+                </div>
+                <button>Отправить</button>
+            </form>
+        </main>
+    </body>
+</html>
