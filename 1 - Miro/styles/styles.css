@@ -9,9 +9,26 @@
     color: #FFF;
 }
 
+#heroButton:hover {
+    background-color: #0730ff;
+}
+
+#heroButton:active {
+    background-color: #00188d;
+}
+
+#heroForm:focus {
+    background-color: re;
+}
+
 .link {
     color: #4262FF;
     text-decoration: underline;
+}
+
+.link:hover {
+    color:#0023d4;
+    text-decoration: none;
 }
 
 header a {
@@ -53,4 +70,8 @@ p {
     font-weight: 400;
     line-height: 20px;
     /* 142.857% */
+}
+
+nav li {
+    list-style: none;
 }
