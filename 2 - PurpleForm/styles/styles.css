@@ -76,3 +76,15 @@ button {
     top: 17px;
     left: 16px;
 }
+
+p {
+    color: blue
+}
+
+#green {
+    color: green;
+}
+
+.red {
+    color: red
+}
