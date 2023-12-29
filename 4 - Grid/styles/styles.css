@@ -27,7 +27,7 @@
 
 body {
     background: var(--color-bg, red);
-    margin: 0;
+    margin: 30px;
     font-family: Fira Sans, sans-serif;
     font-size: 18px;
     font-style: normal;
@@ -36,6 +36,18 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-a {
-    text-decoration: none;
+.item {
+    color: var(--color-text);
+    font-size: 24px;
+    font-weight: 700;
+    border: 2px solid var(--color-primary);
+    text-align: center;
+    padding: 15px;
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    gap: 15px;
+  }
+
